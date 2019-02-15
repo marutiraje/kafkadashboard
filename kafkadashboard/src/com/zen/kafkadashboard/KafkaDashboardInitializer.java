@@ -2,6 +2,9 @@ package com.zen.kafkadashboard;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
+/**
+ * @author mnimbalk
+ */
 public class KafkaDashboardInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
